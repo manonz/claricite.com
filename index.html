@@ -81,9 +81,9 @@
          color: var(--text);
       }
 
-         .feature-item span {
-            font-size: 1.2rem;
-         }
+      .feature-item span {
+         font-size: 1.2rem;
+      }
 
       .btn {
          display: inline-block;
@@ -98,13 +98,25 @@
          box-shadow: 0 2px 4px rgb(37 99 235 / 0.2);
       }
 
-         .btn:hover {
-            background: var(--primary-hover);
-         }
+      .btn:hover {
+         background: var(--primary-hover);
+      }
+
+      .github-link {
+         color: var(--primary);
+         text-decoration: none;
+         font-weight: 500;
+      }
+
+      .github-link:hover {
+         text-decoration: underline;
+      }
 
       .note {
+         color: var(--text-muted);
          font-size: 0.85rem;
-         margin-top: 1rem;
+         margin-top: 1.25rem;
+         line-height: 1.6;
       }
    </style>
 </head>
@@ -121,38 +133,35 @@
       </p>
 
       <div class="features">
-         <div class="feature-item"><span>🔍</span> Native local reference extraction (with optional GROBID support)</div>
+         <div class="feature-item"><span>🔍</span> Native local reference extraction with optional GROBID support</div>
          <div class="feature-item"><span>🌐</span> Cross-references citations against major academic databases</div>
          <div class="feature-item"><span>📊</span> Generates a clear HTML verification report</div>
          <div class="feature-item"><span>🚀</span> Portable single-file binaries with no installation required</div>
       </div>
 
-      <div style="display: none;">
-         <a href="https://github.com" class="btn" target="_blank" rel="noopener">
-            Download Latest Binaries
+      <div>
+         <a href="https://github.com/Noise477/Claricite/releases/latest"
+            class="btn"
+            target="_blank"
+            rel="noopener noreferrer">
+            Download Latest Release
          </a>
 
          <p style="margin-top: 1.5rem; font-size: 0.95rem;">
-            Want to see the source code? <a href="https://github.com" style="color: var(--primary); text-decoration: none; font-weight: 500;">View on GitHub</a>
+            Documentation and source code are available on
+            <a href="https://github.com/Noise477/Claricite/"
+               class="github-link"
+               target="_blank"
+               rel="noopener noreferrer">
+               GitHub
+            </a>.
          </p>
-      </div>
-      <div>
+
          <div class="note">
-            <p>
-               We're making a few final refinements to ensure Claricite is easy to use for everyone —
-               especially those who aren't particularly computer-savvy.
-            </p>
-            <p>
-               In the meantime, if you're interested in trying a pre-release version, please email
-               <a href="mailto:chan777@aucklanduni.ac.nz">chan777@aucklanduni.ac.nz</a> or
-               <a href="mailto:mano.manoharan@auckland.ac.nz">mano.manoharan@auckland.ac.nz</a>
-               and let us know your preferred operating system and architecture (for example, Windows x64, macOS Apple Silicon, or Linux x64).
-               We'll be happy to share the latest pre-release build along with the documentation to help you get started.
-            </p>
+            Official Claricite releases for Windows, macOS, and Linux are published through the GitHub repository.
+            Open the latest release and expand the <strong>Assets</strong> section to download the appropriate build.
          </div>
       </div>
-
-
    </div>
 </body>
 </html>
