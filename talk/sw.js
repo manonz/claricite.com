@@ -1,4 +1,4 @@
-const CACHE_NAME = 'matryoshka-cache-v1';
+const CACHE_NAME = 'things-cache-v1';
 
 // Paths are relative to the location of this sw.js file
 const ASSETS_TO_CACHE = [
@@ -24,7 +24,7 @@ self.addEventListener('activate', (event) => {
          return Promise.all(
             cacheNames.map((cache) => {
                if (cache !== CACHE_NAME) {
-                  console.log('Матрёшка PWA: Clearing old cache versions');
+                  console.log('Nonexistent Things PWA: Clearing old cache versions');
                   return caches.delete(cache);
                }
             })
