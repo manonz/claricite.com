@@ -5,11 +5,19 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Things That Don't Exist — Claims, References and Trust</title>
+   <link rel="manifest" href="manifest.json" />
+   <link rel="icon" type="image/svg+xml" href="Logo.svg" />
    <link type="text/css" rel="stylesheet" href="things.css" />
    <script src="things.js" defer="defer"></script>
 </head>
 
 <body>
+   <script>
+      if ('serviceWorker' in navigator) {
+         window.addEventListener('load', () => {
+            navigator.serviceWorker.register('sw.js');
+         });
+   </script>
 
    <div class="deck">
 
