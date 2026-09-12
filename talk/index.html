@@ -21,7 +21,6 @@
 
    <div class="deck">
 
-      <!-- 1 -->
       <section class="slide active center">
          <div class="eyebrow">A conversation about research integrity</div>
          <h1>Things That<br><span class="accent">Don't Exist</span></h1>
@@ -29,12 +28,12 @@
             Claims, references and trust in the scholarly record
          </div>
          <p class="small" style="margin-top:5vh;">
-            An informal discussion prompted by our work on unverifiable references
+            An informal discussion about how trust gets propagated through the scholarly record —
+            and what happens when nobody checks
          </p>
       </section>
 
 
-      <!-- 2 -->
       <section class="slide">
          <div class="eyebrow">Start with a claim</div>
 
@@ -52,7 +51,6 @@
 
       </section>
 
-      <!-- 2a -->
       <section class="slide">
          <div class="eyebrow">Start with a claim</div>
 
@@ -72,7 +70,6 @@
 
       </section>
 
-      <!-- 2a -->
       <section class="slide">
          <div class="eyebrow">Start with a claim</div>
 
@@ -93,7 +90,6 @@
       </section>
 
 
-      <!-- 3 -->
       <section class="slide">
          <div class="eyebrow">The problem predates generative AI</div>
          <h2>False claims can enter<br>the scholarly record.</h2>
@@ -126,22 +122,21 @@
       </section>
 
 
-      <!-- 4 -->
       <section class="slide center dark">
          <div class="eyebrow">A useful distinction</div>
 
          <div class="spectrum">
             <div>
                <strong>True</strong>
-               <span>The claim corresponds to reality.</span>
+               <span>The available evidence supports the claim.</span>
             </div>
             <div>
                <strong>False</strong>
-               <span>We can establish that the claim is wrong.</span>
+               <span>The available evidence contradicts the claim.</span>
             </div>
             <div>
                <strong>Unverifiable</strong>
-               <span>We cannot establish that the purported object or evidence exists.</span>
+               <span>The available evidence is insufficient to establish whether the claim is true or false.</span>
             </div>
          </div>
 
@@ -154,9 +149,8 @@
       </section>
 
 
-      <!-- 5 -->
       <section class="slide">
-         <div class="eyebrow">The hallucinated reference</div>
+         <div class="eyebrow">Unverifiable references</div>
          <h2>Does this paper exist?</h2>
 
          <div class="claim" style="font-family:Georgia,serif;font-size:clamp(1.3rem,2.3vw,2.2rem);">
@@ -179,7 +173,6 @@
       </section>
 
 
-      <!-- 6 -->
       <section class="slide">
          <div class="eyebrow">Our small question</div>
 
@@ -202,7 +195,6 @@
       </section>
 
 
-      <!-- 7 -->
       <section class="slide center dark">
          <div class="eyebrow">What we found</div>
 
@@ -221,7 +213,6 @@
       </section>
 
 
-      <!-- 8 -->
       <section class="slide">
          <img src="https://claricite.com/images/Logo.svg" width="100" alt="Claricite Logo" />
          <h2>Can we automate<br>some of the checking?</h2>
@@ -257,38 +248,160 @@
          </div>
       </section>
 
-
-      <!-- 9 -->
       <section class="slide">
-         <div class="eyebrow">Zoom out</div>
-         <h2>“Things that don't exist”<br>are a broader problem.</h2>
 
-         <div class="timeline">
-            <div class="timeline-row">
-               <div class="timeline-year">Claim</div>
-               <div class="timeline-text">A real object accompanied by a questionable claim.</div>
+         <div class="eyebrow">ZOOM OUT</div>
+
+         <h2>Moving beyond <span class="accent">unverifiable references</span></h2>
+
+         <p style="margin-top:4vh; font-size:1.25em;">
+            Checking whether a reference exists is important.
+            But even when <strong>everything exists</strong>, the scholarly record
+            can still contain errors that nobody has verified.
+         </p>
+
+         <div style="display:flex;justify-content:center;align-items:center;gap:1.5rem;margin-top:6vh;flex-wrap:wrap;">
+
+            <div style="padding:1.5rem 2rem;border:1px solid #ccd5df;border-radius:12px;text-align:center;min-width:190px;">
+               <div style="font-size:1.5rem; font-weight:600;">Reference</div>
+               <div style="margin-top:.5rem; color:#666;">
+                  Does it exist?
+               </div>
             </div>
-            <div class="timeline-row">
-               <div class="timeline-year">Evidence</div>
-               <div class="timeline-text">Data or samples that are not what they are said to be.</div>
+
+            <div style="font-size:2rem;">→</div>
+
+            <div style="padding:1.5rem 2rem;border:1px solid #ccd5df;border-radius:12px;text-align:center;min-width:190px;">
+               <div style="font-size:1.5rem; font-weight:600;">Evidence</div>
+               <div style="margin-top:.5rem; color:#666;">
+                  Is it what it claims?
+               </div>
             </div>
-            <div class="timeline-row">
-               <div class="timeline-year">Paper</div>
-               <div class="timeline-text">A scientific-looking object without meaningful science underneath.</div>
+
+            <div style="font-size:2rem;">→</div>
+
+            <div style="padding:1.5rem 2rem;border:1px solid #ccd5df;border-radius:12px;text-align:center;min-width:190px;">
+               <div style="font-size:1.5rem; font-weight:600;">Claim</div>
+               <div style="margin-top:.5rem; color:#666;">
+                  Does the evidence support it?
+               </div>
             </div>
-            <div class="timeline-row">
-               <div class="timeline-year">Reference</div>
-               <div class="timeline-text">A scholarly object that looks real but cannot be found.</div>
-            </div>
+
          </div>
 
-         <div class="speaker">
-            The infamous research that claimed turmeric cures cancer is a classic example of a misleading claim.
+         <div style="margin-top:6vh;text-align:center;font-size:1.45rem;">
+            <strong>The problem is bigger than whether a paper exists.</strong>
          </div>
+
+         <p class="speaker">
+            We started by asking a very simple question: does this reference actually exist?
+            But that's only one layer of trust in the scholarly record. A paper and its references can exist,
+             — BUT we can still be repeating
+            a claim that nobody has actually checked.
+         </p>
+
       </section>
 
 
-      <!-- 10 -->
+      <section class="slide">
+         <div class="eyebrow">When an error gets repeated</div>
+
+         <h2>There was a <span class="accent">mistake.</span></h2>
+
+         <div class="flow">
+            <div class="box">
+               <h4>2008</h4>
+               <strong>One paper</strong><br />
+               <span>An incorrect equation</span>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="box">
+               <h4>2011 &mdash; 2014</h4>
+               <strong>Three influential papers</strong><br />
+               <span>The same error</span>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="box">
+               <strong>More papers</strong><br />
+               <span>And more.</span><br />
+               <span>And more.</span>
+            </div>
+
+         </div>
+
+         <div class="big-number">20,000+</div>
+         <div class="label">publications subsequently using the formulation</div>
+
+         <p>
+            There was a mistake. Three influential papers repeated it. 
+            Then more papers repeated the same error, and more followed. 
+            And nobody went back to check the original equation … until …
+         </p>
+         <p style="line-height:1.4; color:#687586;">
+            Anand Pal, <em>A dimensionally consistent size–strain plot method for crystallite size and microstrain estimation</em>,
+            <em>Journal of Alloys and Compounds</em> 1048 (2025), 185324. DOI: 10.1016/j.jallcom.2025.185324
+         </p>
+
+
+         <div class="bottom-line">
+            <strong>Repetition made an error look like knowledge.</strong>
+         </div>
+      </section>
+
+      <section class="slide">
+
+         <div class="eyebrow">WHEN A CITATION GETS REPEATED</div>
+
+         <h2>Does this paper <span class="accent">exist?</span></h2>
+
+         <div style="width: 88%;margin: 2rem auto;padding: 1.3rem 1.6rem;background: #fff;border-radius: 6px;text-align: left;color: #333;box-shadow: 0 6px 25px rgba(0,0,0,.18);">
+            <div style="font-size:.75rem; color:#666; margin-bottom:.4rem;">
+               [CITATION]
+            </div>
+
+            <div style="font-size:1.3rem;line-height:1.35;color:#1a0dab; margin-bottom:.4rem;">
+               Cloud-based blood bank management system:
+               a novel approach for donor management and information dissemination
+            </div>
+
+            <div style="font-size:.9rem; margin-bottom:.15rem;">
+               S Priya, K Geetha
+            </div>
+
+            <div style="font-size:.85rem;color:#555;font-style:italic;margin-bottom:.7rem;">
+               Journal of Advanced Research in Computing, 2014
+            </div>
+
+            <div style="font-size:.82rem; color:#1a0dab;">
+               Cited by <strong>3</strong>
+               <span style="color:#999; margin:0 .35rem;">·</span>
+               Related articles
+            </div>
+         </div>
+
+         <div style="margin-top:1rem; font-size:1.25rem; text-align:center;">
+            <span class="accent">It looks completely legitimate.</span>
+         </div>
+
+         <div style="margin-top:1rem;font-size:1.4rem;text-align:center;">
+            <strong>But the paper cannot be verified.</strong>
+         </div>
+
+         <p>
+            Searching for the reference in
+            <span>
+               <span class="g-blue">G</span><span class="o-red">o</span><span class="o-yellow">o</span><span class="g-blue">g</span><span class="l-green">l</span><span class="o-red">e</span><span class="scholar-text">Scholar</span>
+            </span>
+            gives us a title, authors,
+            a journal, a year — and even three citations. It looks real. But the paper cannot be verified.
+         </p>
+
+      </section>
+
       <section class="slide dark">
          <div class="eyebrow">Now the uncomfortable part</div>
          <h2>More papers. More claims.</h2>
@@ -521,7 +634,6 @@
       </section>
 
 
-      <!-- 11 -->
       <section class="slide">
          <div class="eyebrow">What happens when we actually try?</div>
 
@@ -552,7 +664,6 @@
       </section>
 
 
-      <!-- 12 -->
       <section class="slide center dark">
          <div class="eyebrow">The bigger question</div>
 
@@ -564,7 +675,6 @@
       </section>
 
 
-      <!-- 13 -->
       <section class="slide center">
          <div class="eyebrow">Discussion</div>
 
@@ -600,40 +710,6 @@
 
       </section>
 
-
-      <!-- 14 -->
-      <section class="slide">
-         <div class="eyebrow">Sources / further reading</div>
-         <h2 style="font-size:clamp(2.3rem,4vw,4rem);">A few things behind the discussion</h2>
-
-         <div style="max-width:1050px;font-size:1.1rem;line-height:1.7;">
-
-            <p>
-               <strong>Our paper</strong><br>
-               Han et al. — “Phantom citations: An empirical study of non-existent
-               and unverifiable references in scholarly literature.”
-            </p>
-
-            <p>
-               <strong>Open reproduction</strong><br>
-               Hugging Face / community report — “What We Learned by Reproducing
-               2,200 Papers from ICML.”
-            </p>
-
-            <p>
-               <strong>Research-integrity examples</strong><br>
-               ScienceAlert — Maria Cristina Miron Elqutub and fabricated blood samples.<br>
-               Retraction Watch — Bharat Aggarwal and retracted papers.<br>
-            </p>
-
-            <p class="small" style="margin-top:5vh;">
-               <strong>AI statement</strong><br>
-               ChatGPT helped us polish the text and synthesise these HTML slides.
-            </p>
-
-         </div>
-
-      </section>
 
    </div>
 

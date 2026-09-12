@@ -208,6 +208,39 @@ p {
       margin: 0;
    }
 
+.google-scholar-logo {
+   /* Uses modern clean fonts matching Google's interface */
+   font-family: 'Roboto', 'Product Sans', Arial, sans-serif;
+   font-size: 2.5rem;
+   font-weight: 500;
+   letter-spacing: -0.5px;
+   display: inline-block;
+}
+
+/* Specific letter coloring for Google */
+.g-blue {
+   color: #4285F4;
+}
+
+.o-red {
+   color: #EA4335;
+}
+
+.o-yellow {
+   color: #FBBC05;
+}
+
+.l-green {
+   color: #34A853;
+}
+
+/* Authentic gray for the word Scholar */
+.scholar-text {
+   color: #5f6368;
+   font-weight: 400;
+   margin-left: 6px;
+}
+
 .spectrum {
    display: flex;
    width: 100%;
@@ -458,4 +491,3 @@ button {
       display: none !important;
    }
 }
-
