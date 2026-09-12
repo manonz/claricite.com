@@ -4,7 +4,11 @@ const CACHE_NAME = 'things-cache-v1';
 const ASSETS_TO_CACHE = [
    'index.html',
    'manifest.json',
-   'Logo.svg'
+   'Logo.svg',
+   'things.css',
+   'things.js',
+   'Galgotias-Dog-Pee2N.png',
+   'Unitree-Go2.png'
 ];
 
 // 1. Install Event: Create the cache and inject the app shell files
