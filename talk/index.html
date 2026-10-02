@@ -12,11 +12,11 @@
 
 <body>
    <script>
-      if ('serviceWorker' in navigator) {
-         window.addEventListener('load', () => {
-            navigator.serviceWorker.register('sw.js');
-         });
-      }
+            if ('serviceWorker' in navigator) {
+               window.addEventListener('load', () => {
+                  navigator.serviceWorker.register('sw.js');
+               });
+            }
    </script>
 
    <div class="deck">
@@ -28,8 +28,8 @@
             Claims, references and trust in the scholarly record
          </div>
          <p class="small" style="margin-top:5vh;">
-            An informal discussion about how trust gets propagated through the scholarly record —
-            and what happens when nobody checks
+            An informal discussion about how trust gets propagated through the scholarly record — and 
+            what happens when nobody checks
          </p>
       </section>
 
@@ -249,6 +249,44 @@
       </section>
 
       <section class="slide">
+         <div class="eyebrow">Preprint repositories fight back</div>
+         <h2>arXiv overhauls policy<br>to crack down on <span class="accent">AI "slop"</span></h2>
+
+         <div class="three">
+            <div class="card">
+               <div class="number">01</div>
+               <h3>One-year ban</h3>
+               <p>
+                  Researchers who submit papers containing incontrovertible evidence of unchecked LLM generation face
+                  an immediate 12-month platform suspension.
+               </p>
+            </div>
+
+            <div class="card">
+               <div class="number">02</div>
+               <h3>Post-ban vetting</h3>
+               <p>Once suspended, penalised authors can only upload new work if it has been accepted by a reputable peer-reviewed venue.</p>
+            </div>
+
+            <div class="card">
+               <div class="number">03</div>
+               <h3>Preprint crisis</h3>
+               <p>
+                  The surge of automated nonsense has forced other platforms like
+                  <span class="accent">PsyArXiv</span> and <span class="accent">SocArXiv</span> to issue permanent bans.
+               </p>
+            </div>
+         </div>
+
+         <p class="small" style="margin-top:4vh;">
+            Generative AI is flooding repositories with unedited text and fake citations. Moderators
+            are shifting from policing individual papers to penalising author behavior.
+         </p>
+
+      </section>
+
+
+      <section class="slide">
 
          <div class="eyebrow">ZOOM OUT</div>
 
@@ -296,7 +334,7 @@
          <p class="speaker">
             We started by asking a very simple question: does this reference actually exist?
             But that's only one layer of trust in the scholarly record. A paper and its references can exist,
-             — BUT we can still be repeating
+            — BUT we can still be repeating
             a claim that nobody has actually checked.
          </p>
 
@@ -337,8 +375,8 @@
          <div class="label">publications subsequently using the formulation</div>
 
          <p>
-            There was a mistake. Three influential papers repeated it. 
-            Then more papers repeated the same error, and more followed. 
+            There was a mistake. Three influential papers repeated it.
+            Then more papers repeated the same error, and more followed.
             And nobody went back to check the original equation … until …
          </p>
          <p style="line-height:1.4; color:#687586;">
