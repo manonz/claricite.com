@@ -12,11 +12,11 @@
 
 <body>
    <script>
-            if ('serviceWorker' in navigator) {
-               window.addEventListener('load', () => {
-                  navigator.serviceWorker.register('sw.js');
-               });
-            }
+                              if ('serviceWorker' in navigator) {
+                                 window.addEventListener('load', () => {
+                                    navigator.serviceWorker.register('sw.js');
+                                 });
+                              }
    </script>
 
    <div class="deck">
@@ -28,7 +28,7 @@
             Claims, references and trust in the scholarly record
          </div>
          <p class="small" style="margin-top:5vh;">
-            An informal discussion about how trust gets propagated through the scholarly record — and 
+            An informal discussion about how trust gets propagated through the scholarly record — and
             what happens when nobody checks
          </p>
       </section>
@@ -279,12 +279,11 @@
          </div>
 
          <p class="small" style="margin-top:4vh;">
-            Generative AI is flooding repositories with unedited text and fake citations. Moderators
+            Generative AI is flooding repositories with unedited AI text and fake citations. Moderators
             are shifting from policing individual papers to penalising author behavior.
          </p>
 
       </section>
-
 
       <section class="slide">
 
@@ -447,7 +446,7 @@
          <div style="margin: 0 auto; width: 80%;">
             <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
                <!-- Styles -->
-               <style>
+               <style type="text/css">
                   .title {
                      font-family: system-ui, -apple-system, sans-serif;
                      font-size: 24px;
@@ -745,6 +744,51 @@
             <span class="tag">publishers</span>
             <span class="tag">machines</span>
          </div>
+
+      </section>
+
+      <section class="slide">
+         <div class="eyebrow">A path forward</div>
+         <h2>The crowd-sourced<br>safety net of <span class="accent">PubPeer</span></h2>
+
+         <p>
+            When pre-publication verification systems drop the ball, post-publication peer review steps in.
+            Platforms like <span class="accent">PubPeer</span> allow the scientific community 
+            to flag anomalies in published papers immediately.
+         </p>
+         <div class="three">
+            <div class="card">
+               <div class="number">01</div>
+               <h3>Early Alert Signals</h3>
+               <p>
+                  Independent community comments serve as dynamic warning indicators long 
+                  before an institution initiates an official investigation.
+               </p>
+            </div>
+
+            <div class="card">
+               <div class="number">02</div>
+               <h3>Index Integration</h3>
+               <p>
+                  The <span class="accent">Web of Science</span> platform now directly embeds live
+                  <span class="accent">PubPeer</span>
+                  commentary paths into its index records, signalling the start of institutional adoption.
+               </p>
+            </div>
+
+            <div class="card">
+               <div class="number">03</div>
+               <h3>Closing the Gap</h3>
+               <p>
+                  While formal journal retractions can take years, crowdsourced peer validation 
+                  instantly protects the literature from multiplying errors.
+               </p>
+            </div>
+         </div>
+
+         <p class="small" style="margin-top:4vh;">
+            PubPeer remains essential because it reflects the collective expert judgment of the scientific community.
+         </p>
 
       </section>
 
